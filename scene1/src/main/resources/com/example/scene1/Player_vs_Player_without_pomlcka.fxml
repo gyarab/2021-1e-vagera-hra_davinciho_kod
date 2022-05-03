@@ -11,7 +11,7 @@
             <font>
                 <Font size="40.0" />
             </font></Button>
-        <Button fx:id="btn2" layoutX="20.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn2ac" prefHeight="184.0" prefWidth="106.0" style="-fx-focus-traversable: 0d1d3b;" text="1 up" visible="false">
+        <Button fx:id="btn2" layoutX="20.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn2ac" prefHeight="184.0" prefWidth="106.0" style="-fx-focus-traversable: 0d1d3b;" visible="false">
             <font>
                 <Font size="40.0" />
             </font></Button>
@@ -19,7 +19,7 @@
             <font>
                 <Font size="40.0" />
             </font></Button>
-        <Button fx:id="btn4" layoutX="150.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn4ac" prefHeight="184.0" prefWidth="106.0" text="2 up" visible="false">
+        <Button fx:id="btn4" layoutX="150.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn4ac" prefHeight="184.0" prefWidth="106.0"  visible="false">
             <font>
                 <Font size="40.0" />
             </font></Button>
@@ -27,7 +27,7 @@
             <font>
                 <Font size="40.0" />
             </font></Button>
-        <Button fx:id="btn6" layoutX="280.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn6ac" prefHeight="184.0" prefWidth="106.0" text="3 up" visible="false">
+        <Button fx:id="btn6" layoutX="280.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn6ac" prefHeight="184.0" prefWidth="106.0" visible="false">
             <font>
                 <Font size="40.0" />
             </font></Button>
@@ -35,7 +35,7 @@
             <font>
                 <Font size="40.0" />
             </font></Button>
-        <Button fx:id="btn8" layoutX="410.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn8ac" prefHeight="184.0" prefWidth="106.0" text="4 up" visible="false">
+        <Button fx:id="btn8" layoutX="410.0" layoutY="40.0" mnemonicParsing="false" onAction="#btn8ac" prefHeight="184.0" prefWidth="106.0" visible="false">
             <font>
                 <Font size="40.0" />
             </font></Button>
@@ -105,11 +105,11 @@
             </font></Button>
         <Button fx:id="bila_btn" layoutX="1500.0" layoutY="430.0" mnemonicParsing="false" onAction="#bila" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color:#EBEFE6" text="Bila" visible="false">
             <font>
-                <Font size="25.0" />
+                <Font size="24.0" />
             </font></Button>
         <Button fx:id="cerna_btn" layoutX="1665.0" layoutY="430.0" mnemonicParsing="false" onAction="#cerna" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="Cerna" textFill="WHITE" visible="false">
             <font>
-                <Font size="25.0" />
+                <Font size="24.0" />
             </font></Button>
         <Button fx:id="stoper1" layoutX="1304.0" layoutY="590.0" mnemonicParsing="false" onAction="#stoper" prefHeight="24.0" prefWidth="119.0" text="Stopper" visible="false" />
         <Button fx:id="enter1" layoutX="817.0" layoutY="472.0" mnemonicParsing="false" onAction="#enter" prefHeight="69.0" prefWidth="273.0" text="Enter" visible="false">
