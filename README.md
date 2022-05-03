@@ -1,1 +1,0 @@
-# 2021-1e-vagera-hra_davinciho_kod
