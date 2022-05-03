@@ -105,11 +105,11 @@
             </font></Button>
         <Button fx:id="bila_btn" layoutX="1500.0" layoutY="430.0" mnemonicParsing="false" onAction="#bila" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color:#EBEFE6" text="Bila" textFill="BLACK" visible="false">
             <font>
-                <Font size="25.0" />
+                <Font size="24.0" />
             </font></Button>
         <Button fx:id="cerna_btn" layoutX="1665.0" layoutY="430.0" mnemonicParsing="false" onAction="#cerna" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="Cerna" textFill="WHITE" visible="false">
             <font>
-                <Font size="25.0" />
+                <Font size="24.0" />
             </font></Button>
         <Button fx:id="stoper1" layoutX="1304.0" layoutY="590.0" mnemonicParsing="false" onAction="#stoper" prefHeight="24.0" prefWidth="119.0" text="Stopper" visible="false" />
         <TextField fx:id="txt" layoutX="1268.0" layoutY="556.0" prefHeight="24.0" prefWidth="194.0" visible="false" />
