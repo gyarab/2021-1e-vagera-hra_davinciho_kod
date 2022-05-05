@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="back" prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.HelloController">
+   <children>
+      <Button layoutX="1399.0" layoutY="461.0" mnemonicParsing="false" onAction="#switchtoScene1" prefHeight="91.0" prefWidth="182.0" text="vs Player" />
+      <Label layoutX="1810.0" layoutY="995.0" text="2" />
+      <Button layoutX="249.0" layoutY="461.0" mnemonicParsing="false" onAction="#switchtoScene3" prefHeight="91.0" prefWidth="182.0" text="vs Computer" />
+      <Button layoutX="76.0" layoutY="921.0" mnemonicParsing="false" onAction="#back1" prefHeight="90.0" prefWidth="181.0" text="Go back" />
+      <Label layoutX="737.0" layoutY="328.0" text="Vyberte typ hry">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

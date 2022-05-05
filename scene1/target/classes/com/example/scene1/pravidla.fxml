@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.HelloController">
+   <children>
+      <Label layoutX="166.0" layoutY="273.0" prefHeight="488.0" prefWidth="754.0" text="Jedná se o logickou hru s čísly. Ve hře jsou černé a bílé karty s hodnotou 0 až 11 a 'tajnou kartu' s pomlčkou, ta  slouží  k  matení soupeře. Každý  hráč  si  na  začátku  vezme  čtyři  libovolné (bílé i černé)   karty  a  neukazuje  je  soupeři. Potom  karty  seřadí vzestupně,  nejmenší  číslo  vlevo,  největší v pravo. Tato posloupnost je 'tajný kód', který  se  protihráč snaží  uhodnout.  Pokud  má hráč stejné  číslo na  bílé  i černé  kartě, tak  nejříve  umístí  vlevo  bílou  kartu, pak  teprve  černou. Hodnota  bílé barvy  je vždy nižší. Zároveň  se ve hře  nachází i  dvě  karty  (černá a bílá)  s  pomlčkou,  které  zastupují  libovolnou  číselnou  hodnotu.  Hráč na začátku tahu  vylosuje  ze společné hromádky jednu novou kartu a pokusí se  uhodnout některé z čísel ze soupeřova kódu. Pokud hráč na tahu uhodne číslo  skrývající se za kartou soupeře, tak  soupeř sklopí (odkryje) uhodnutou kartu a hráč může dle její hodnoty a polohy odhalovat ostatní čísla. Dále může hráč  pokračovat v  hádání  nebo  ukončit  svůj tah. Pokud  hráč na tahu  neuhodne  číslo na  kartě  soupeře, tak  si   vylosované  číslo  zařadí  na patřičnou pozici  do svých karet.  Počet čísel  (délka kódu)  u hráče na tahu se tím zvýší. Po neuhodnutí  hraje  soupeř.  Pokud hráč  odhalí všechny své karty (celý kód)  tak pro  něj  hra  končí.  Vyhrává  ten  hráč, kterému  zůstanou neuhodnuté karty." wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Button layoutX="1200.0" layoutY="287.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color:#EBEFE6">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1330.0" layoutY="287.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button disable="true" layoutX="1460.0" layoutY="287.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="7" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1590.0" layoutY="287.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1200.0" layoutY="657.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="-" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1330.0" layoutY="657.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="5" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1460.0" layoutY="657.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color:#EBEFE6" text="10">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="1590.0" layoutY="657.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="106.0" style="-fx-background-color: #474747;" text="10" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font></Button>
+      <Button layoutX="76.0" layoutY="921.0" mnemonicParsing="false" onAction="#back1" prefHeight="90.0" prefWidth="181.0" text="Go back" />
+      <Label layoutX="166.0" layoutY="222.0" text="Pravidla hry :">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <Label layoutX="1042.0" layoutY="379.0" prefHeight="16.0" prefWidth="158.0" text="Soupeř -">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="988.0" layoutY="741.0" prefHeight="19.0" prefWidth="158.0" text="Hráč na tahu -">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+     <Label layoutX="1200.0" layoutY="492.0" prefHeight="16.0" prefWidth="514.0" text="Max  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Min  " />
+      <Label layoutX="1200.0" layoutY="866.0" prefHeight="16.0" prefWidth="514.0" text="Min  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Max  " />
+      <Label layoutX="996.0" layoutY="222.0" prefHeight="51.0" prefWidth="301.0" text="Příklad hry :">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label text="Label" />
+      <Label layoutX="1527.0" layoutY="256.0" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1532.0" layoutY="248.0" text="Vyluštěná karta" />
+      <Label layoutX="1235.0" layoutY="627.0" text="/">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="1244.0" layoutY="619.0" text="Pomlčka" />
+      <Label layoutX="166.0" layoutY="767.0" prefHeight="41.0" prefWidth="707.0" text="- vybrané číslo pomlčky je vždy menší než číslo pravé karty (černá pomlčka za kterou je např. číslo 5 je menší než karta s číslem 5)" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

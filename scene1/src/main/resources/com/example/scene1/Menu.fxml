@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.HelloController">
+   <children>
+      <Button layoutX="860.0" layoutY="505.0" mnemonicParsing="false" onAction="#switchtoScene2" prefHeight="90.0" prefWidth="181.0" text="Start" />
+      <Label layoutX="1810.0" layoutY="1020.0" text="1" />
+      <Button fx:id="oj" layoutX="76.0" layoutY="921.0" mnemonicParsing="false" onAction="#end" prefHeight="90.0" prefWidth="181.0" text="Exit" />
+      <Button layoutX="1600.0" layoutY="921.0" mnemonicParsing="false" onAction="#prav" prefHeight="90.0" prefWidth="181.0" text="Pravidla hry" />
+      <Label layoutX="552.0" layoutY="225.0" text="Hra DaVinci Code">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

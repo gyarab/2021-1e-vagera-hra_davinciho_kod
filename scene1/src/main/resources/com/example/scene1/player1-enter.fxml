@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.Ending_buttons">
+   <children>
+      <Button fx:id="start" layoutX="920.0" layoutY="443.0" mnemonicParsing="false" onAction="#end" prefHeight="79.0" prefWidth="170.0" text="press to exit" />
+      <Label layoutX="816.0" layoutY="348.0" prefHeight="48.0" prefWidth="378.0" text="Player 1 won">
+         <font>
+            <Font size="56.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

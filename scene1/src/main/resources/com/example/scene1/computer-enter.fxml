@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.Ending_buttons">
+    <children>
+        <Button layoutX="814.0" layoutY="447.0" mnemonicParsing="false" onAction="#end" prefHeight="79.0" prefWidth="170.0" text="press to exit" />
+        <Label layoutX="682.0" layoutY="355.0" prefHeight="67.0" prefWidth="434.0" text="Computer won">
+            <font>
+                <Font size="56.0" />
+            </font></Label>
+
+    </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="1100.0" prefWidth="1900.0" style="-fx-background-color: #afae92;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.scene1.Selection_pomlcka_player">
+    <children>
+        <Button layoutX="850.0" layoutY="613.0" mnemonicParsing="false" onAction="#pomlcka" prefHeight="91.0" prefWidth="182.0" text="Hard - s pomlčkou" />
+        <Button layoutX="850.0" layoutY="344.0" mnemonicParsing="false" onAction="#nic" prefHeight="91.0" prefWidth="182.0" text="Easy - bez pomlčky" />
+        <Button layoutX="76.0" layoutY="921.0" mnemonicParsing="false" onAction="#back" prefHeight="90.0" prefWidth="181.0" text="Go back" />
+      <Label layoutX="817.0" layoutY="514.0" text="Vyberte obtížnost">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
