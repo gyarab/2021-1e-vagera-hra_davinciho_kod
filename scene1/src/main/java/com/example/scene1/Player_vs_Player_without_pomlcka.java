@@ -1027,6 +1027,7 @@ public class Player_vs_Player_without_pomlcka {
                     } else {
                         ww = "Bila";
                     }
+                    text1.setText(player + ww + " " + (int) vy2 + " is Incorrect");
 
                 } else {
                     player = "Player2: ";
@@ -1039,9 +1040,9 @@ public class Player_vs_Player_without_pomlcka {
                     } else {
                         ww = "Bila";
                     }
+                    text1.setText(player + ww + " " + (int) vy4 + " is Incorrect");
                 }
                 color = 0;
-                text1.setText(player + ww + " " + (int) vy2 + " is Incorrect");
 
                 stoper = 0;
                 gg.setVisible(true);
